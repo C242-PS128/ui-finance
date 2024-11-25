@@ -1,0 +1,104 @@
+[versions]
+agp = "8.7.2"
+kotlin = "2.0.0"
+androidx-core-ktx = "1.15.0"
+androidx-lifecycle = "2.8.7"
+room = "2.6.1"
+navigation = "2.8.4"
+hilt = "2.50"
+mpandroidchart = "v3.1.0"
+retrofit = "2.9.0"
+okhttp = "4.12.0"
+gson = "2.10.1"
+commons-math3 = "3.6.1"
+tensorflow-lite = "2.12.0"
+anychart = "1.1.2"
+lottie = "6.1.0"
+shimmer = "0.5.0"
+security-crypto = "1.1.0-alpha06"
+work-runtime = "2.10.0"
+firebase-messaging = "24.1.0"
+billing = "7.1.1"
+biometric = "1.2.0-alpha05"
+material = "1.12.0"
+junit = "4.13.2"
+androidx-junit = "1.2.1"
+espresso-core = "3.6.1"
+
+
+[libraries]
+# Core Libraries
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-compiler = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "androidx-lifecycle" }
+
+# Room Database
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# Navigation Component
+androidx-navigation-runtime = { group = "androidx.navigation", name = "navigation-runtime", version.ref = "navigation" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+
+# Hilt for Dependency Injection
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+
+# MPAndroidChart for Visual Data Representation
+mp-android-chart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
+
+# Retrofit for API requests
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+
+# OkHttp for HTTP Client
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
+# Gson for JSON Parsing
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+# Apache Commons Math for data analytics
+commons-math3 = { group = "org.apache.commons", name = "commons-math3", version.ref = "commons-math3" }
+
+# TensorFlow Lite for ML predictions
+tensorflow-lite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflow-lite" }
+
+# AnyChart for advanced charts
+anychart = { group = "com.github.AnyChart", name = "AnyChart-Android", version.ref = "anychart" }
+
+# Lottie for animations
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+
+# Shimmer for loading animations
+shimmer = { group = "com.facebook.shimmer", name = "shimmer", version.ref = "shimmer" }
+
+# Encrypted SharedPreferences
+security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "security-crypto" }
+
+# WorkManager for background tasks
+work-runtime = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work-runtime" }
+
+# Firebase Cloud Messaging for notifications
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebase-messaging" }
+
+# Google Play Billing for premium features
+billing = { group = "com.android.billingclient", name = "billing", version.ref = "billing" }
+
+# Biometric API for authentication
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+
+# Material Components for Material Design UI
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Testing Libraries
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
