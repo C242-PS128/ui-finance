@@ -10,6 +10,7 @@
     <string name="predict_button">Predict</string>
     <string name="title_home">Home</string>
     <string name="title_prediction">Prediction</string>
+    <string name="title_add_savings">Add savings</string>
     <string name="title_financial_freedom">Financial Freedom</string>
     <string name="title_settings">Settings</string>
     <string name="login_title">Login</string>
@@ -24,4 +25,9 @@
     <string name="enter_username">Masukkan username</string>
     <string name="register_button">Register</string>
     <string name="already_have_account">Sudah punya akun?</string>
+    <string name="total_target_investasi_setelah_inflasi">Total Target Investasi (Setelah Inflasi)</string>
+    <string name="jangka_waktu_investasi_dalam_tahun">Jangka Waktu Investasi (dalam tahun)</string>
+    <string name="jumlah_investasi_bulanan">Jumlah Investasi Bulanan</string>
+    <string name="jumlah_investasi_awal">Jumlah Investasi Awal</string>
+    <string name="Hitung_jumlah">Hitung</string>
 </resources>

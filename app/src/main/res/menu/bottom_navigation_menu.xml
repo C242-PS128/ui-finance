@@ -12,8 +12,12 @@
         android:title="@string/title_prediction"/>
 
     <item
+        android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
         android:id="@+id/navigation_financial_freedom"
-        android:icon="@drawable/baseline_financial_freedom"
+        android:icon="@drawable/ic_calculator"
         android:title="@string/title_financial_freedom"/>
 
     <item

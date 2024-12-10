@@ -12,13 +12,13 @@
 
     <fragment
         android:id="@+id/navigation_prediction"
-        android:name="com.example.myapplication.ui.prediction.PredictionFragment"
+        android:name="com.example.myapplication.ui.prediction.StockPredictionFragment"
         android:label="@string/title_prediction"
-        tools:layout="@layout/fragment_prediction" />
+        tools:layout="@layout/fragment_prediction_stock" />
 
     <fragment
         android:id="@+id/navigation_financial_freedom"
-        android:name="com.example.myapplication.ui.financial.FinancialFreedomFragment"
+        android:name="com.example.myapplication.ui.financial_freedom.FinancialFreedomFragment"
         android:label="@string/title_financial_freedom"
         tools:layout="@layout/fragment_financial_freedom" />
 

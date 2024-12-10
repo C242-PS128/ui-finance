@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Input: Total Target Investasi Masa Depan Setelah Inflasi -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_total_target"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/total_target_investasi_setelah_inflasi">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_total_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_text_background"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Input: Jangka Waktu Investasi -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_investment_duration"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/til_total_target"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:hint="@string/jangka_waktu_investasi_dalam_tahun">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_investment_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/edit_text_background"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Input: Jumlah yang Perlu Diinvestasikan Setiap Bulan -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_monthly_investment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/til_investment_duration"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:hint="@string/jumlah_investasi_bulanan">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_monthly_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Input: Jumlah yang Perlu Diinvestasikan di Awal -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_initial_investment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/til_monthly_investment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:hint="@string/jumlah_investasi_awal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_initial_investment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_text_background"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Button: Hitung -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_calculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Hitung_jumlah"
+        app:layout_constraintTop_toBottomOf="@id/til_initial_investment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        app:cornerRadius="30dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
