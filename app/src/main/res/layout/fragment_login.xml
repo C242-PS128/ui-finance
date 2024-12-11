@@ -8,6 +8,13 @@
     android:padding="16dp"
     android:background="#FFFFFF">
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
     <!-- Gambar di tengah -->
     <ImageView
         android:id="@+id/imageViewLogo"
