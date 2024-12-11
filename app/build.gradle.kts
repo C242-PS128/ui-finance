@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.example.financebro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.financebro"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -42,6 +42,10 @@ android {
 }
 
 dependencies {
+    // OkHttp libraries
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging)
+
     // Core libraries
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -53,7 +57,7 @@ dependencies {
 
     // Data libraries
     implementation(libs.androidx.room.runtime)
-    ksp(libs.androidx.room.compiler) // Change from kapt to ksp
+    ksp(libs.androidx.room.compiler)
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
     implementation(libs.gson)
@@ -69,11 +73,18 @@ dependencies {
 
     // Dependency Injection
     implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler) // Change from kapt to ksp
+    ksp(libs.hilt.compiler)
+
+    // Firebase Authentication (Google login)
+    implementation(libs.firebase.auth)
+    implementation(libs.google.play.services.auth)
 
     // Testing libraries
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     testImplementation(libs.mockito.core)
+
+    implementation(libs.cardview)
 }
+

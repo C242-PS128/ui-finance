@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.dicoding.financebro
 
 import androidx.appcompat.app.AppCompatActivity
 
