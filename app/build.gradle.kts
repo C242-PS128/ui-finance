@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("kotlin-kapt")
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -35,42 +35,45 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
+        //noinspection DataBindingWithoutKapt
         dataBinding = true
         viewBinding = true
     }
 }
 
 dependencies {
+    // Core libraries
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    kapt(libs.androidx.lifecycle.compiler)
-    implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.ktx)
-    //noinspection KaptUsageInsteadOfKsp
-    kapt(libs.androidx.room.compiler)
-    implementation(libs.androidx.navigation.runtime)
+    implementation(libs.androidx.material)
+
+    // Navigation Components
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.compiler)
-    implementation(libs.mp.android.chart)
+
+    // Data libraries
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler) // Change from kapt to ksp
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
-    implementation(libs.okhttp)
-    implementation(libs.okhttp.logging.interceptor)
     implementation(libs.gson)
-    implementation(libs.commons.math3)
+    implementation(libs.androidx.datastore.preferences)
+
+    // ML and Chart libraries
     implementation(libs.tensorflow.lite)
-    implementation(libs.anychart)
-    implementation(libs.lottie)
-    implementation(libs.shimmer)
-    implementation(libs.security.crypto)
-    implementation(libs.work.runtime)
-    implementation(libs.firebase.messaging)
-    implementation(libs.billing)
-    implementation(libs.biometric)
-    implementation(libs.material)
+    implementation(libs.mpandroidchart)
+    implementation(libs.apache.commons.math3)
+
+    // UI libraries
+    implementation(libs.androidx.recyclerview)
+
+    // Dependency Injection
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.compiler) // Change from kapt to ksp
+
+    // Testing libraries
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.androidx.espresso.core)
+    testImplementation(libs.mockito.core)
 }

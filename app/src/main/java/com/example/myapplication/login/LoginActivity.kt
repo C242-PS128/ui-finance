@@ -1,7 +1,7 @@
 package com.example.myapplication.login
 
-import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 
-class LoginActivity: Fragment (R.layout.login) {
-    //
+class LoginActivity : AppCompatActivity() {
+    //berikan logika disini
 }

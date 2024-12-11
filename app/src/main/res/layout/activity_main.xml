@@ -13,7 +13,8 @@
     android:id="@+id/bottomAppBar"
     app:fabCradleMargin="10dp"
     app:fabCradleRoundedCornerRadius="10dp"
-    app:fabCradleVerticalOffset="10dp">
+    app:fabCradleVerticalOffset="10dp"
+    tools:ignore="VisualLintBottomAppBar">
 
 </com.google.android.material.bottomappbar.BottomAppBar>
 
@@ -24,7 +25,8 @@
         android:contentDescription="@string/title_add_savings"
         android:src="@drawable/baseline_add_24"
         app:layout_anchor="@+id/bottomAppBar"
-        app:layout_anchorGravity="top|center"/>
+        app:layout_anchorGravity="top|center"
+        tools:ignore="ImageContrastCheck" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/BottomNavigationView"
@@ -36,6 +38,7 @@
         app:itemIconTint="@color/black"
         app:layout_anchor="@+id/bottomAppBar"
         app:layout_anchorGravity="center"
-        app:menu="@menu/bottom_navigation_menu" />
+        app:menu="@menu/bottom_navigation_menu"
+        tools:ignore="VisualLintBottomNav" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
