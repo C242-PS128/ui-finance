@@ -5,39 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp"
     tools:context=".login.LoginActivity">
 
-    <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="12dp"
-        android:background="@drawable/edit_text_background" />
+        android:layout_gravity="center"
+        android:visibility="gone" />
 
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:background="@drawable/edit_text_background"
-        android:layout_marginTop="16dp" />
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_google_logo"
+        android:contentDescription="@string/title_app_logo"
+        android:layout_marginBottom="32dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonLoginWithGoogle"
-        android:layout_width="match_parent"
+        android:id="@+id/signInButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login with Google"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="@color/purple_200"
-        android:textColor="@android:color/white"
+        android:backgroundTint="#4285F4"
+        android:text="@string/button_sign_in_with_google"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         app:icon="@drawable/ic_google_logo"
         app:iconGravity="textStart"
         app:iconPadding="8dp"
-        app:cornerRadius="20dp" />
+        app:cornerRadius="50dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp" />
 
 </LinearLayout>

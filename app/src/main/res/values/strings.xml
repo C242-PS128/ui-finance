@@ -30,4 +30,7 @@
     <string name="jumlah_investasi_bulanan">Jumlah Investasi Bulanan</string>
     <string name="jumlah_investasi_awal">Jumlah Investasi Awal</string>
     <string name="Hitung_jumlah">Hitung</string>
+    <string name="title_app_logo">App Logo</string>
+    <string name="web_client_id">958019176719-kp1mb0ri3peis292kk0m3m4iq8i5e76o.apps.googleusercontent.com</string>
+    <string name="button_sign_in_with_google">Sign in with Google</string>
 </resources>
