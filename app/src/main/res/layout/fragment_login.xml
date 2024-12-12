@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp"
-    tools:context=".login.LoginActivity">
+    android:background="#FFFFFF">
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -16,6 +15,10 @@
         android:layout_gravity="center"
         android:visibility="gone" />
 
+<<<<<<< HEAD
+=======
+    <!-- Gambar di tengah -->
+>>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
     <ImageView
         android:id="@+id/imageViewLogo"
         android:layout_width="150dp"
@@ -24,8 +27,13 @@
         android:contentDescription="@string/title_app_logo"
         android:layout_marginBottom="32dp" />
 
+    <!-- Tombol Sign in with Google -->
     <com.google.android.material.button.MaterialButton
+<<<<<<< HEAD
         android:id="@+id/signInButton"
+=======
+        android:id="@+id/buttonSignInWithGoogle"
+>>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#4285F4"

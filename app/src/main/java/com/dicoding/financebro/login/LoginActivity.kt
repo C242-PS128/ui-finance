@@ -1,4 +1,4 @@
-package com.example.myapplication.login
+package com.dicoding.financebro.login
 
 //import com.google.android.gms.auth.api.signin.GoogleSignInClient
 //import com.google.android.gms.auth.api.signin.GoogleSignInOptions

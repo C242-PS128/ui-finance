@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.dicoding.financebro
 
 import android.content.Intent
 import android.credentials.CredentialManager

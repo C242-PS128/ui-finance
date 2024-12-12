@@ -30,7 +30,42 @@
     <string name="jumlah_investasi_bulanan">Jumlah Investasi Bulanan</string>
     <string name="jumlah_investasi_awal">Jumlah Investasi Awal</string>
     <string name="Hitung_jumlah">Hitung</string>
+<<<<<<< HEAD
     <string name="title_app_logo">App Logo</string>
     <string name="web_client_id">958019176719-kp1mb0ri3peis292kk0m3m4iq8i5e76o.apps.googleusercontent.com</string>
     <string name="button_sign_in_with_google">Sign in with Google</string>
+=======
+    <string name="title_user">Hello, User!</string>
+    <string name="jumlah_tabungan">Rp0,00</string>
+    <string name="title_saving">My Savings</string>
+    <string name="target_tabungan">From Target Rp1.000.000.000,00</string>
+    <string name="tabungan">Saving</string>
+    <string name="investasi">Investment</string>
+    <string name="title_select_type">Select Type</string>
+    <string name="title_amount">Amount</string>
+    <string name="title_enter_amount">Enter amount</string>
+    <string name="button_track">Track</string>
+    <string name="button_update">Update</string>
+    <string name="title_stock_name">Stock Name</string>
+    <string name="title_enter_period_in_days">Enter period in days</string>
+    <string name="title_enter_stock_name">Enter stock name</string>
+    <string name="title_list_stock_predictions">Stock Predictions</string>
+    <string name="title_stock_prediction">Stock Prediction</string>
+    <string name="title_prediction_period_days">Prediction Period (Days)</string>
+    <string name="button_predict">Predict</string>
+    <string name="title_retirement_planner">Retirement Planner</string>
+    <string name="title_name_retirement">Name</string>
+    <string name="title_enter_your_name">Enter your name</string>
+    <string name="title_age_retirement">Age</string>
+    <string name="title_enter_your_age_retirement">Enter your age</string>
+    <string name="title_retire_age">Retire Age</string>
+    <string name="title_enter_desired_retire_age">Enter desired retire age</string>
+    <string name="title_retire_period_years">Retire Period (Years)</string>
+    <string name="title_enter_retire_period_in_years">Enter retire period in years</string>
+    <string name="title_monthly_expenses">Monthly Expenses</string>
+    <string name="title_enter_monthly_expenses">Enter monthly expenses</string>
+    <string name="button_save_retirement">Save</string>
+    <string name="button_sign_in_with_google">Sign in with Google</string>
+    <string name="title_app_logo">App Logo</string>
+>>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
 </resources>

@@ -19,6 +19,9 @@ commonsMath = "3.6.1"
 recyclerView = "1.3.2"
 hilt = "2.51.1"
 mockito = "5.11.0"
+firebaseAuth = "23.1.0"
+googlePlayServicesAuth = "21.3.0"
+cardview = "1.0.0"
 
 [libraries]
 # Core libraries
@@ -50,12 +53,20 @@ androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview"
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 
+# Firebase Authentication
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+google-play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "googlePlayServicesAuth" }
+
 # Testing libraries
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
 
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version = "4.9.3" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.9.3" }
+
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
