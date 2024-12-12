@@ -132,10 +132,22 @@
 
         <!-- Save Button -->
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_save"
+            android:id="@+id/btn_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_save_retirement"
+            android:layout_marginTop="8dp"
+            app:cornerRadius="50dp"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_logout"
             android:layout_marginTop="8dp"
             app:cornerRadius="50dp"
             android:backgroundTint="#6200EE"
