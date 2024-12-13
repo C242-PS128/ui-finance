@@ -1,15 +1,16 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("com.google.devtools.ksp")
+    id("kotlin-kapt")
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.financebro"
+    namespace = "com.dicoding.financebro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.financebro"
+        applicationId = "com.dicoding.financebro"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -35,7 +36,6 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
-        //noinspection DataBindingWithoutKapt
         dataBinding = true
         viewBinding = true
     }
@@ -57,7 +57,7 @@ dependencies {
 
     // Data libraries
     implementation(libs.androidx.room.runtime)
-    ksp(libs.androidx.room.compiler)
+    kapt(libs.androidx.room.compiler)
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
     implementation(libs.gson)
@@ -73,7 +73,7 @@ dependencies {
 
     // Dependency Injection
     implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler)
+    kapt(libs.hilt.compiler) // Mengganti ksp dengan kapt
 
     // Firebase Authentication (Google login)
     implementation(libs.firebase.auth)
@@ -86,5 +86,12 @@ dependencies {
     testImplementation(libs.mockito.core)
 
     implementation(libs.cardview)
+
+    // Import the Firebase BoM
+    implementation(platform(libs.firebaseBom))
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation(libs.firebaseAnalytics)
 }
+
 

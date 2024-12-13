@@ -1,14 +1,14 @@
 [versions]
 # Versi yang sudah ada
 agp = "8.7.3"
-kotlin = "2.0.21"
+kotlin = "2.0.0"
 coreKtx = "1.15.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
 material = "1.12.0"
-navigation = "2.8.4"
+navigation = "2.8.5"
 room = "2.6.1"
 retrofit = "2.11.0"
 gson = "2.10.1"
@@ -22,6 +22,7 @@ mockito = "5.11.0"
 firebaseAuth = "23.1.0"
 googlePlayServicesAuth = "21.3.0"
 cardview = "1.0.0"
+firebaseBom = "33.7.0"
 
 [libraries]
 # Core libraries
@@ -63,10 +64,13 @@ androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "j
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
 
-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version = "4.9.3" }
-okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.9.3" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version = "4.12.0" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version = "4.12.0" }
 
 cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+
+firebaseBom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebaseAnalytics = { group = "com.google.firebase", name = "firebase-analytics" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
