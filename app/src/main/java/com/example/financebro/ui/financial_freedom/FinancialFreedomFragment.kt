@@ -1,4 +1,4 @@
-package com.dicoding.financebro.ui.financial_freedom
+package com.example.financebro.ui.financial_freedom
 
 import androidx.fragment.app.Fragment
 

@@ -1,4 +1,4 @@
-package com.dicoding.financebro.ui.prediction
+package com.example.financebro.ui.prediction
 
 import androidx.fragment.app.Fragment
 

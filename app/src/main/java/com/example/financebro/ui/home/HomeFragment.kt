@@ -1,4 +1,4 @@
-package com.dicoding.financebro.ui.home
+package com.example.financebro.ui.home
 
 import androidx.fragment.app.Fragment
 

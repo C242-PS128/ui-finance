@@ -1,4 +1,4 @@
-package com.dicoding.financebro
+package com.example.financebro
 
 import org.junit.Test
 

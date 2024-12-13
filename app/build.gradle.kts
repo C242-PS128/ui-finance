@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dicoding.financebro"
+    namespace = "com.example.financebro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.dicoding.financebro"
+        applicationId = "com.example.financebro"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

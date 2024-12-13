@@ -1,4 +1,4 @@
-package com.dicoding.financebro.ui.add_savings
+package com.example.financebro.ui.add_savings
 
 import androidx.fragment.app.Fragment
 

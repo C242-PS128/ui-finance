@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context ="com.dicoding.financebro.MainActivity">
+    tools:context ="com.example.financebro.MainActivity">
 
 <com.google.android.material.bottomappbar.BottomAppBar
     android:layout_width="match_parent"

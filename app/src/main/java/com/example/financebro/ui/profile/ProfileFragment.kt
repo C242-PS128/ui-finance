@@ -1,4 +1,4 @@
-package com.dicoding.financebro.ui.profile
+package com.example.financebro.ui.profile
 
 import androidx.fragment.app.Fragment
 
