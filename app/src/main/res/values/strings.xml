@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">FinanceBro!</string>
-    <string name="stock_prediction_title">Stock Prediction</string>
-    <string name="stock_name">Stock Name</string>
-    <string name="enter_stock_name">Enter stock name</string>
-    <string name="start_date_stock">Start Date</string>
-    <string name="select_start_date">Select start date</string>
-    <string name="prediction_period_days">Prediction Period (days)</string>
-    <string name="enter_period_in_days">Enter period in days</string>
+    <string name="app_name" translatable="false">FinanceBro!</string>
+    <string name="stock_prediction_title" translatable="false">Stock Prediction</string>
+    <string name="stock_name" translatable="false">Stock Name</string>
+    <string name="enter_stock_name" translatable="false">Enter stock name</string>
+    <string name="start_date_stock" translatable="false">Start Date</string>
+    <string name="select_start_date" translatable="false">Select start date</string>
+    <string name="prediction_period_days" translatable="false">Prediction Period (days)</string>
+    <string name="enter_period_in_days" translatable="false">Enter period in days</string>
     <string name="predict_button">Predict</string>
     <string name="title_home">Home</string>
     <string name="title_prediction">Prediction</string>
@@ -30,11 +30,7 @@
     <string name="jumlah_investasi_bulanan">Jumlah Investasi Bulanan</string>
     <string name="jumlah_investasi_awal">Jumlah Investasi Awal</string>
     <string name="Hitung_jumlah">Hitung</string>
-<<<<<<< HEAD
-    <string name="title_app_logo">App Logo</string>
     <string name="web_client_id">958019176719-kp1mb0ri3peis292kk0m3m4iq8i5e76o.apps.googleusercontent.com</string>
-    <string name="button_sign_in_with_google">Sign in with Google</string>
-=======
     <string name="title_user">Hello, User!</string>
     <string name="jumlah_tabungan">Rp0,00</string>
     <string name="title_saving">My Savings</string>
@@ -67,9 +63,6 @@
     <string name="button_save_retirement">Save</string>
     <string name="button_sign_in_with_google">Sign in with Google</string>
     <string name="title_app_logo">App Logo</string>
-<<<<<<< HEAD
     <string name="title_logout">Logout</string>
-=======
->>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
->>>>>>> 3c251058234ef023deab1ec8adf028c7a321ce55
+
 </resources>
