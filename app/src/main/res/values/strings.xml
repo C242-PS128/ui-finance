@@ -30,6 +30,11 @@
     <string name="jumlah_investasi_bulanan">Jumlah Investasi Bulanan</string>
     <string name="jumlah_investasi_awal">Jumlah Investasi Awal</string>
     <string name="Hitung_jumlah">Hitung</string>
+<<<<<<< HEAD
+    <string name="title_app_logo">App Logo</string>
+    <string name="web_client_id">958019176719-kp1mb0ri3peis292kk0m3m4iq8i5e76o.apps.googleusercontent.com</string>
+    <string name="button_sign_in_with_google">Sign in with Google</string>
+=======
     <string name="title_user">Hello, User!</string>
     <string name="jumlah_tabungan">Rp0,00</string>
     <string name="title_saving">My Savings</string>
@@ -62,5 +67,9 @@
     <string name="button_save_retirement">Save</string>
     <string name="button_sign_in_with_google">Sign in with Google</string>
     <string name="title_app_logo">App Logo</string>
+<<<<<<< HEAD
     <string name="title_logout">Logout</string>
+=======
+>>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
+>>>>>>> 3c251058234ef023deab1ec8adf028c7a321ce55
 </resources>

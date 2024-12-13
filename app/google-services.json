@@ -7,6 +7,7 @@
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:958019176719:android:b9737572eecb149b0a967a",
         "android_client_info": {
           "package_name": "com.example.financebro"
@@ -36,6 +37,8 @@
     },
     {
       "client_info": {
+=======
+>>>>>>> 3c251058234ef023deab1ec8adf028c7a321ce55
         "mobilesdk_app_id": "1:958019176719:android:296daf7439301eab0a967a",
         "android_client_info": {
           "package_name": "com.example.myapplication"

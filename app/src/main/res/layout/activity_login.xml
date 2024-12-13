@@ -15,7 +15,10 @@
         android:layout_gravity="center"
         android:visibility="gone" />
 
+<<<<<<< HEAD
+=======
     <!-- Gambar di tengah -->
+>>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
     <ImageView
         android:id="@+id/imageViewLogo"
         android:layout_width="150dp"
@@ -26,7 +29,11 @@
 
     <!-- Tombol Sign in with Google -->
     <com.google.android.material.button.MaterialButton
+<<<<<<< HEAD
+        android:id="@+id/signInButton"
+=======
         android:id="@+id/buttonSignInWithGoogle"
+>>>>>>> 299d3b40c07ee0de8d5aa35446601bc90143bdab
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#4285F4"
